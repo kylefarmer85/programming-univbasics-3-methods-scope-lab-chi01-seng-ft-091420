@@ -9,6 +9,13 @@ def toadstool
 end
 
 def link 
-  phrase = "It's Dangerous To Go Alone! Take This."
-  puts phrase
+  says = "It's Dangerous To Go Alone! Take This."
+  puts says
 end
+
+def all_phrases
+  mario 
+  toadstool
+  link
+end
+  
